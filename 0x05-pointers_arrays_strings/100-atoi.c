@@ -1,11 +1,14 @@
 #include "main.h"
 
 /**
- * _atoi - Convert a string to an integer
- * @s: The pointer to convert
- * Return: An integer
+ * _atoi - Convert a string to an integer.
+ * @s: The string to convert.
+ * Return: The converted integer.
+ *
+ * Description:
+ * This function takesa string as input and converts it to an integer.
  */
-
+i
 int _atoi(char *s)
 {
     int c = 0;
@@ -16,7 +19,7 @@ int _atoi(char *s)
     {
         if (s[c] == '-')
         {
-            min *= -1;
+            sign *= -1;
         }
         else if (s[c] >= '0' && s[c] <= '9')
         {
@@ -29,6 +32,5 @@ int _atoi(char *s)
         c++;
     }
 
-    ni *= min;
-    return ni;
+    return ni * sign;
 }
