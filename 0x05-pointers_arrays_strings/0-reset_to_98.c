@@ -3,7 +3,7 @@
 /**
  * reset_to_98 - Takes a pointer to an int and updates the value it points to to 98
  *
- * @n; A pointer to an integer.
+ * @n: A pointer to an integer.
  *
  * This function takes a pointer to an integer as an argument and
  * updates the value it points to by setting it to 98.
