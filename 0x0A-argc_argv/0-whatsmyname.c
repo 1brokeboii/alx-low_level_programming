@@ -1,9 +1,7 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
  * main - Entry point of the program
- *
  * @argc: The number of command-line arguments (unused in this program).
  * @argv: An array of strings containing command-line arguments.
  *
@@ -11,6 +9,6 @@
  */
 int main(int argc __attribute__((unused)), char *argv[])
 {
-	printf("Program name: %s\n", *argv);
+	printf("%s\n", *argv);
 	return (0);
 }
